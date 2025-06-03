@@ -9,10 +9,10 @@ const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
-    { label: '首页', path: '/' },
-    { label: '关于我们', path: '/about-us' },
-    { label: '隐私政策', path: '/document/privacy' },
-    { label: '服务条款', path: '/document/terms' },
+    { label: 'Home', path: '/' },
+    { label: 'About Us', path: '/about-us' },
+    { label: 'Privacy Policy', path: '/document/privacy' },
+    { label: 'Terms of Service', path: '/document/terms' },
   ];
 
   const isActive = (path: string) => {
@@ -27,9 +27,9 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">K</span>
+              <span className="text-white font-bold text-lg">S</span>
             </div>
-            <span className="text-xl font-bold text-primary-800">KenyaCash</span>
+            <span className="text-xl font-bold text-primary-800">Sulu Cash</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -52,9 +52,9 @@ const Navigation = () => {
                 <Phone className="w-4 h-4 mr-1" />
                 <span className="text-sm">+254 700 000 000</span>
               </a>
-              <a href="mailto:info@kenyacash.com" className="flex items-center text-gray-600 hover:text-primary-600">
+              <a href="mailto:info@sulucash.com" className="flex items-center text-gray-600 hover:text-primary-600">
                 <Mail className="w-4 h-4 mr-1" />
-                <span className="text-sm">info@kenyacash.com</span>
+                <span className="text-sm">info@sulucash.com</span>
               </a>
             </div>
           </div>
@@ -95,9 +95,9 @@ const Navigation = () => {
                   <Phone className="w-4 h-4 mr-2" />
                   <span>+254 700 000 000</span>
                 </a>
-                <a href="mailto:info@kenyacash.com" className="flex items-center text-gray-600">
+                <a href="mailto:info@sulucash.com" className="flex items-center text-gray-600">
                   <Mail className="w-4 h-4 mr-2" />
-                  <span>info@kenyacash.com</span>
+                  <span>info@sulucash.com</span>
                 </a>
               </div>
             </div>

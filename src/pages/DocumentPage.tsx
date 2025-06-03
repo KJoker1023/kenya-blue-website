@@ -16,349 +16,349 @@ const DocumentPage = () => {
 
   const documentConfigs = {
     privacy: {
-      title: '隐私政策',
-      lastUpdated: '2024年1月1日',
-      content: `# 隐私政策
+      title: 'Privacy Policy',
+      lastUpdated: 'January 1, 2024',
+      content: `# Privacy Policy
 
-## 1. 信息收集
+## 1. Information Collection
 
-我们可能收集以下类型的个人信息：
+We may collect the following types of personal information:
 
-### 1.1 个人身份信息
-- 姓名
-- 身份证号码
-- 电话号码
-- 电子邮件地址
-- 银行账户信息
+### 1.1 Personal Identity Information
+- Full name
+- National ID number
+- Phone number
+- Email address
+- Bank account information
 
-### 1.2 设备信息
-- 设备型号和操作系统
-- IP地址
-- 应用程序使用数据
+### 1.2 Device Information
+- Device model and operating system
+- IP address
+- Application usage data
 
-## 2. 信息使用
+## 2. Information Usage
 
-我们使用收集的信息用于：
+We use the collected information for:
 
-- **身份验证**：确认您的身份和资格
-- **风险评估**：评估贷款申请的风险
-- **服务提供**：处理您的贷款申请和管理账户
-- **客户支持**：提供技术支持和客户服务
+- **Identity Verification**: Confirming your identity and eligibility
+- **Risk Assessment**: Evaluating loan application risks
+- **Service Provision**: Processing your loan applications and managing accounts
+- **Customer Support**: Providing technical support and customer service
 
-## 3. 信息保护
+## 3. Information Protection
 
-我们采用以下措施保护您的个人信息：
+We adopt the following measures to protect your personal information:
 
-- 使用行业标准的加密技术
-- 实施严格的访问控制
-- 定期进行安全审计
-- 员工隐私培训
+- Use industry-standard encryption technology
+- Implement strict access controls
+- Regular security audits
+- Employee privacy training
 
-## 4. 信息共享
+## 4. Information Sharing
 
-我们不会出售、交易或转让您的个人信息给第三方，除非：
+We do not sell, trade, or transfer your personal information to third parties, except:
 
-1. 获得您的明确同意
-2. 法律要求
-3. 保护我们的合法权益
+1. With your explicit consent
+2. Legal requirements
+3. Protecting our legitimate interests
 
-## 5. 您的权利
+## 5. Your Rights
 
-您有权：
+You have the right to:
 
-- 访问您的个人信息
-- 更正不准确的信息
-- 删除您的个人信息
-- 限制信息处理
+- Access your personal information
+- Correct inaccurate information
+- Delete your personal information
+- Restrict information processing
 
-## 6. Cookie使用
+## 6. Cookie Usage
 
-我们使用Cookie来：
+We use cookies to:
 
-- 记住您的偏好设置
-- 分析网站使用情况
-- 提供个性化体验
+- Remember your preference settings
+- Analyze website usage
+- Provide personalized experiences
 
-## 7. 联系我们
+## 7. Contact Us
 
-如果您对本隐私政策有任何疑问，请联系我们：
+If you have any questions about this privacy policy, please contact us:
 
-**邮箱**：privacy@kenyacash.com  
-**电话**：+254 700 000 000  
-**地址**：Nairobi, Kenya CBD Business Center`
+**Email**: privacy@sulucash.com  
+**Phone**: +254 700 000 000  
+**Address**: Nairobi, Kenya CBD Business Center`
     },
     terms: {
-      title: '服务条款',
-      lastUpdated: '2024年1月1日',
-      content: `# 服务条款
+      title: 'Terms of Service',
+      lastUpdated: 'January 1, 2024',
+      content: `# Terms of Service
 
-## 1. 接受条款
+## 1. Acceptance of Terms
 
-通过使用KenyaCash应用程序和服务，您同意遵守本服务条款。
+By using the Sulu Cash application and services, you agree to comply with these Terms of Service.
 
-## 2. 服务描述
+## 2. Service Description
 
-KenyaCash提供以下服务：
+Sulu Cash provides the following services:
 
-### 2.1 现金贷服务
-- 短期个人贷款
-- 快速审批和放款
-- 灵活的还款选项
+### 2.1 Cash Loan Services
+- Short-term personal loans
+- Fast approval and disbursement
+- Flexible repayment options
 
-### 2.2 相关服务
-- 客户支持
-- 账户管理
-- 金融教育资源
+### 2.2 Related Services
+- Customer support
+- Account management
+- Financial education resources
 
-## 3. 申请条件
+## 3. Application Requirements
 
-要使用我们的服务，您必须：
+To use our services, you must:
 
-- 年满18周岁
-- 是肯尼亚合法居民
-- 拥有有效的身份证件
-- 有稳定的收入来源
+- Be at least 18 years old
+- Be a legal resident of Kenya
+- Have valid identification documents
+- Have a stable source of income
 
-## 4. 贷款条款
+## 4. Loan Terms
 
-### 4.1 贷款金额
-- 最低：KSh 1,000
-- 最高：KSh 50,000
+### 4.1 Loan Amount
+- Minimum: KSh 1,000
+- Maximum: KSh 50,000
 
-### 4.2 贷款期限
-- 最短：7天
-- 最长：30天
+### 4.2 Loan Period
+- Minimum: 7 days
+- Maximum: 30 days
 
-### 4.3 利率和费用
-- 日利率：0.1% - 0.5%
-- 服务费：贷款金额的1-3%
-- 无隐藏费用
+### 4.3 Interest Rates and Fees
+- Daily interest rate: 0.1% - 0.5%
+- Service fee: 1-3% of loan amount
+- No hidden fees
 
-## 5. 还款
+## 5. Repayment
 
-### 5.1 还款方式
+### 5.1 Payment Methods
 - M-Pesa
-- 银行转账
-- 其他指定支付方式
+- Bank transfer
+- Other designated payment methods
 
-### 5.2 逾期处理
-- 逾期费：每日0.1%
-- 催收程序
-- 信用记录影响
+### 5.2 Late Payment
+- Late fee: 0.1% per day
+- Collection procedures
+- Credit record impact
 
-## 6. 用户责任
+## 6. User Responsibilities
 
-您同意：
+You agree to:
 
-- 提供真实准确的信息
-- 按时偿还贷款
-- 遵守相关法律法规
-- 保护账户安全
+- Provide true and accurate information
+- Repay loans on time
+- Comply with relevant laws and regulations
+- Protect account security
 
-## 7. 免责声明
+## 7. Disclaimer
 
-KenyaCash不对以下情况承担责任：
+Sulu Cash is not responsible for:
 
-- 系统维护导致的服务中断
-- 不可抗力因素
-- 第三方服务提供商的问题
+- Service interruptions due to system maintenance
+- Force majeure factors
+- Third-party service provider issues
 
-## 8. 条款修改
+## 8. Terms Modification
 
-我们保留随时修改本条款的权利，修改后的条款将在应用程序中公布。
+We reserve the right to modify these terms at any time. Modified terms will be published in the application.
 
-## 9. 争议解决
+## 9. Dispute Resolution
 
-任何争议将通过以下方式解决：
+Any disputes will be resolved through:
 
-1. 友好协商
-2. 调解
-3. 肯尼亚法院诉讼
+1. Friendly negotiation
+2. Mediation
+3. Kenyan court litigation
 
-## 10. 联系信息
+## 10. Contact Information
 
-如有疑问，请联系：
+For questions, please contact:
 
-**邮箱**：legal@kenyacash.com  
-**电话**：+254 700 000 000`
+**Email**: legal@sulucash.com  
+**Phone**: +254 700 000 000`
     },
     license: {
-      title: '营业执照',
-      lastUpdated: '2024年1月1日',
-      content: `# 营业执照信息
+      title: 'Business License',
+      lastUpdated: 'January 1, 2024',
+      content: `# Business License Information
 
-## 公司注册信息
+## Company Registration Information
 
-**公司名称**：KenyaCash Financial Services Ltd.  
-**注册号**：CPR/2020/123456  
-**注册日期**：2020年3月15日  
-**注册地址**：Nairobi, Kenya CBD Business Center
+**Company Name**: Sulu Cash Financial Services Ltd.  
+**Registration Number**: CPR/2020/123456  
+**Registration Date**: March 15, 2020  
+**Registered Address**: Nairobi, Kenya CBD Business Center
 
-## 业务范围
+## Business Scope
 
-根据肯尼亚公司法，本公司获准从事以下业务：
+Under Kenyan Company Law, the company is authorized to engage in the following businesses:
 
-1. 小额信贷服务
-2. 金融咨询服务
-3. 数字支付服务
-4. 信用评估服务
+1. Microfinance services
+2. Financial consulting services
+3. Digital payment services
+4. Credit assessment services
 
-## 监管许可
+## Regulatory Licenses
 
-### 金融服务许可
-- **许可证号**：FSL/2020/001
-- **发证机关**：肯尼亚中央银行
-- **有效期**：2020-2025年
+### Financial Services License
+- **License Number**: FSL/2020/001
+- **Issuing Authority**: Central Bank of Kenya
+- **Validity Period**: 2020-2025
 
-### 数据保护许可
-- **许可证号**：DPR/2020/002
-- **发证机关**：肯尼亚数据保护专员办公室
-- **有效期**：2020-2025年
+### Data Protection License
+- **License Number**: DPR/2020/002
+- **Issuing Authority**: Office of the Data Protection Commissioner of Kenya
+- **Validity Period**: 2020-2025
 
-## 合规声明
+## Compliance Statement
 
-本公司严格遵守以下法律法规：
+The company strictly complies with the following laws and regulations:
 
-- 肯尼亚银行法
-- 小额信贷法
-- 数据保护法
-- 消费者保护法
+- Kenya Banking Act
+- Microfinance Act
+- Data Protection Act
+- Consumer Protection Act
 
-## 审计信息
+## Audit Information
 
-**审计机构**：KPMG Kenya  
-**最近审计日期**：2023年12月31日  
-**审计结果**：合规无重大违规
+**Audit Firm**: KPMG Kenya  
+**Last Audit Date**: December 31, 2023  
+**Audit Result**: Compliant with no major violations
 
-## 联系方式
+## Contact Information
 
-**监管投诉热线**：+254 700 000 001  
-**合规邮箱**：compliance@kenyacash.com`
+**Regulatory Complaint Hotline**: +254 700 000 001  
+**Compliance Email**: compliance@sulucash.com`
     },
     compliance: {
-      title: '合规声明',
-      lastUpdated: '2024年1月1日',
-      content: `# 合规声明
+      title: 'Compliance Statement',
+      lastUpdated: 'January 1, 2024',
+      content: `# Compliance Statement
 
-## 监管合规
+## Regulatory Compliance
 
-KenyaCash严格遵守肯尼亚金融监管要求：
+Sulu Cash strictly adheres to Kenyan financial regulatory requirements:
 
-### 1. 中央银行监管
-- 定期报告业务数据
-- 接受监管检查
-- 遵守资本充足率要求
+### 1. Central Bank Regulation
+- Regular reporting of business data
+- Accepting regulatory inspections
+- Compliance with capital adequacy requirements
 
-### 2. 反洗钱合规
-- 客户身份识别（KYC）
-- 可疑交易报告
-- 员工反洗钱培训
+### 2. Anti-Money Laundering Compliance
+- Customer identification (KYC)
+- Suspicious transaction reporting
+- Employee anti-money laundering training
 
-### 3. 数据保护合规
-- 遵守GDPR和本地数据保护法
-- 实施数据保护措施
-- 定期数据保护培训
+### 3. Data Protection Compliance
+- Compliance with GDPR and local data protection laws
+- Implementation of data protection measures
+- Regular data protection training
 
-## 负责任放贷
+## Responsible Lending
 
-我们承诺负责任的放贷实践：
+We are committed to responsible lending practices:
 
-- 评估借款人还款能力
-- 提供透明的贷款条款
-- 合理的催收实践
-- 金融教育和咨询
+- Assessing borrower repayment capacity
+- Providing transparent loan terms
+- Reasonable collection practices
+- Financial education and counseling
 
-## 消费者保护
+## Consumer Protection
 
-- 公平透明的定价
-- 清晰的合同条款
-- 有效的投诉处理机制
-- 保护客户隐私
+- Fair and transparent pricing
+- Clear contract terms
+- Effective complaint handling mechanisms
+- Protecting customer privacy
 
-## 持续改进
+## Continuous Improvement
 
-我们持续改进合规管理：
+We continuously improve compliance management:
 
-- 定期合规培训
-- 内部审计
-- 外部合规评估
-- 政策更新
+- Regular compliance training
+- Internal audits
+- External compliance assessments
+- Policy updates
 
-## 投诉渠道
+## Complaint Channels
 
-**投诉邮箱**：complaints@kenyacash.com  
-**投诉热线**：+254 700 000 002  
-**监管投诉**：Central Bank of Kenya`
+**Complaint Email**: complaints@sulucash.com  
+**Complaint Hotline**: +254 700 000 002  
+**Regulatory Complaints**: Central Bank of Kenya`
     },
     risk: {
-      title: '风险提示',
-      lastUpdated: '2024年1月1日',
-      content: `# 风险提示
+      title: 'Risk Disclosure',
+      lastUpdated: 'January 1, 2024',
+      content: `# Risk Disclosure
 
-## 重要提醒
+## Important Notice
 
-借贷涉及风险，请您在申请前仔细考虑。
+Borrowing involves risks. Please consider carefully before applying.
 
-## 主要风险
+## Main Risks
 
-### 1. 利率风险
-- 贷款产生利息费用
-- 逾期将产生额外费用
-- 影响您的财务状况
+### 1. Interest Rate Risk
+- Loans generate interest expenses
+- Late payments will incur additional fees
+- May affect your financial situation
 
-### 2. 信用风险
-- 逾期还款影响信用记录
-- 可能影响未来借贷能力
-- 信用记录将被报告给征信机构
+### 2. Credit Risk
+- Late repayment affects credit records
+- May impact future borrowing ability
+- Credit records will be reported to credit bureaus
 
-### 3. 财务风险
-- 可能导致财务困难
-- 影响日常生活开支
-- 债务负担增加
+### 3. Financial Risk
+- May lead to financial difficulties
+- Affects daily living expenses
+- Increased debt burden
 
-## 负责任借贷建议
+## Responsible Borrowing Advice
 
-### 评估还款能力
-- 计算您的月收入和支出
-- 确保有足够的还款能力
-- 考虑突发事件的影响
+### Assess Repayment Capacity
+- Calculate your monthly income and expenses
+- Ensure sufficient repayment capacity
+- Consider the impact of unexpected events
 
-### 合理使用贷款
-- 仅借取必需的金额
-- 用于合法合理的用途
-- 避免重复借贷
+### Reasonable Use of Loans
+- Only borrow necessary amounts
+- Use for legal and reasonable purposes
+- Avoid repeated borrowing
 
-### 按时还款
-- 设置还款提醒
-- 确保账户有足够余额
-- 如有困难及时联系我们
+### Timely Repayment
+- Set repayment reminders
+- Ensure sufficient account balance
+- Contact us immediately if difficulties arise
 
-## 寻求帮助
+## Seeking Help
 
-如果您遇到还款困难：
+If you encounter repayment difficulties:
 
-1. **立即联系我们**
-   - 客服热线：+254 700 000 000
-   - 邮箱：support@kenyacash.com
+1. **Contact Us Immediately**
+   - Customer Service Hotline: +254 700 000 000
+   - Email: support@sulucash.com
 
-2. **寻求专业建议**
-   - 财务顾问咨询
-   - 债务管理建议
+2. **Seek Professional Advice**
+   - Financial advisor consultation
+   - Debt management advice
 
-3. **考虑其他选择**
-   - 与家人朋友商讨
-   - 寻求其他资金来源
+3. **Consider Other Options**
+   - Discuss with family and friends
+   - Seek other funding sources
 
-## 免费金融教育
+## Free Financial Education
 
-我们提供免费的金融教育资源：
+We provide free financial education resources:
 
-- 预算管理技巧
-- 储蓄建议
-- 债务管理指导
-- 理财规划
+- Budget management tips
+- Savings advice
+- Debt management guidance
+- Financial planning
 
-请记住：借贷是一项重要的财务决定，请根据您的实际情况谨慎选择。`
+Please remember: Borrowing is an important financial decision. Please choose carefully based on your actual situation.`
     }
   };
 
@@ -376,8 +376,8 @@ KenyaCash严格遵守肯尼亚金融监管要求：
       <div className="min-h-screen">
         <Navigation />
         <div className="pt-16 py-20 text-center">
-          <h1 className="text-2xl font-bold text-gray-900">文档未找到</h1>
-          <p className="text-gray-600 mt-4">请检查URL是否正确</p>
+          <h1 className="text-2xl font-bold text-gray-900">Document Not Found</h1>
+          <p className="text-gray-600 mt-4">Please check if the URL is correct</p>
         </div>
         <Footer />
       </div>
@@ -398,7 +398,7 @@ KenyaCash严格遵守肯尼亚金融监管要求：
             </div>
             <div className="flex items-center text-sm text-gray-500">
               <Calendar className="w-4 h-4 mr-2" />
-              <span>最后更新：{lastUpdated}</span>
+              <span>Last updated: {lastUpdated}</span>
             </div>
           </div>
 
@@ -464,17 +464,17 @@ KenyaCash严格遵守肯尼亚金融监管要求：
           {/* Contact Section */}
           <div className="bg-primary-50 rounded-lg p-6 mt-8">
             <h3 className="text-lg font-semibold text-primary-800 mb-3">
-              需要帮助？
+              Need Help?
             </h3>
             <p className="text-primary-700 mb-4">
-              如果您对本文档有任何疑问，请随时联系我们的客服团队。
+              If you have any questions about this document, please feel free to contact our customer service team.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="mailto:legal@kenyacash.com"
+                href="mailto:legal@sulucash.com"
                 className="text-primary-600 hover:text-primary-800 font-medium"
               >
-                📧 legal@kenyacash.com
+                📧 legal@sulucash.com
               </a>
               <a
                 href="tel:+254700000000"

@@ -9,41 +9,41 @@ const Index = () => {
   const features = [
     {
       icon: Clock,
-      title: '快速审批',
-      description: '最快5分钟完成审批，资金快速到账'
+      title: 'Fast Approval',
+      description: 'Get approved in as fast as 5 minutes with instant fund disbursement'
     },
     {
       icon: Shield,
-      title: '安全可靠',
-      description: '银行级加密技术，保护您的个人信息安全'
+      title: 'Safe & Secure',
+      description: 'Bank-level encryption technology to protect your personal information'
     },
     {
       icon: Smartphone,
-      title: '操作简便',
-      description: '手机APP操作，随时随地申请贷款'
+      title: 'Easy to Use',
+      description: 'Mobile app operation, apply for loans anytime, anywhere'
     }
   ];
 
   const steps = [
     {
       step: '01',
-      title: '下载APP',
-      description: '从应用商店下载KenyaCash应用'
+      title: 'Download App',
+      description: 'Download Sulu Cash app from the app store'
     },
     {
       step: '02',
-      title: '注册认证',
-      description: '填写基本信息，完成身份认证'
+      title: 'Register & Verify',
+      description: 'Fill in basic information and complete identity verification'
     },
     {
       step: '03',
-      title: '申请贷款',
-      description: '选择贷款金额和期限，提交申请'
+      title: 'Apply for Loan',
+      description: 'Select loan amount and term, submit your application'
     },
     {
       step: '04',
-      title: '快速放款',
-      description: '审批通过后，资金快速到账'
+      title: 'Get Funded',
+      description: 'Once approved, funds are disbursed quickly to your account'
     }
   ];
 
@@ -57,19 +57,19 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-slide-in-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                快速便捷的
-                <span className="block text-primary-200">现金贷服务</span>
+                Fast & Convenient
+                <span className="block text-primary-200">Cash Loan Service</span>
               </h1>
               <p className="text-xl text-primary-100 leading-relaxed">
-                专为肯尼亚用户打造的智能借贷平台，提供快速、安全、透明的现金贷服务。
-                最快5分钟审批，24/7全天候服务。
+                Smart lending platform designed specifically for Kenyan users, providing fast, secure, 
+                and transparent cash loan services. Get approved in as fast as 5 minutes with 24/7 service.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   size="lg" 
                   className="bg-white text-primary-700 hover:bg-primary-50 font-semibold px-8 py-3"
                 >
-                  立即下载APP
+                  Download App Now
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 <Button 
@@ -77,7 +77,7 @@ const Index = () => {
                   size="lg"
                   className="border-white text-white hover:bg-white hover:text-primary-700 px-8 py-3"
                 >
-                  了解更多
+                  Learn More
                 </Button>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Index = () => {
                   <div className="w-72 h-72 bg-white rounded-2xl flex items-center justify-center">
                     <div className="text-center">
                       <Smartphone className="w-16 h-16 text-primary-600 mx-auto mb-4" />
-                      <h3 className="text-2xl font-bold text-primary-800 mb-2">KenyaCash</h3>
+                      <h3 className="text-2xl font-bold text-primary-800 mb-2">Sulu Cash</h3>
                       <p className="text-primary-600">Your Financial Partner</p>
                     </div>
                   </div>
@@ -104,10 +104,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              为什么选择KenyaCash？
+              Why Choose Sulu Cash?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              我们致力于为肯尼亚用户提供最优质的金融服务体验
+              We are committed to providing the best financial service experience for Kenyan users
             </p>
           </div>
           
@@ -135,10 +135,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              如何申请贷款？
+              How to Apply for a Loan?
             </h2>
             <p className="text-xl text-gray-600">
-              简单四步，轻松获得资金支持
+              Simple four steps to get the financial support you need
             </p>
           </div>
           
@@ -165,16 +165,16 @@ const Index = () => {
       <section className="bg-primary-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            准备好获得资金支持了吗？
+            Ready to Get Financial Support?
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            立即下载KenyaCash APP，享受快速、安全的现金贷服务
+            Download Sulu Cash app now and enjoy fast, secure cash loan services
           </p>
           <Button 
             size="lg" 
             className="bg-white text-primary-600 hover:bg-primary-50 font-semibold px-8 py-3"
           >
-            下载APP开始申请
+            Download App to Get Started
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>
